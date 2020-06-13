@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment - Trang Le - 2000619</title>
+    <link href="Resources/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form action="Resources/submission.html" method="POST">
+        <h1>Keijo Keränen</h1>
+        <br>
+        <section class="current picture">
+            <label for="picture">Current picture:</label>
+            <input name="picture" id="picture" type="image" src="Resources/Images/Capture.PNG">
+        </section>
+        <br>
+        <span>Sex:</span>
+        <section class="sex">
+            <input name="sex" id="Male" type="radio" value="Male">
+            <label for="Male">Male</label>
+            <input name="sex" id="Female" type="radio" value="Female">
+            <label for="Female">Female</label>
+        </section>
+        <br>
+        <section class="username">
+            <label for="username">Username:</label>
+            <input name="username" id="username" type="text" value="Trang Le" required>
+        </section>
+        <br>
+        <section class="password">
+            <label for="pw">Password:</label>
+            <input name="pw" id="pw" type="password" value="password" required>
+        </section>
+        <br>
+        <section class="city">
+            <label for="city">City/town:</label>
+            <input name="city/town" id="city" type="text" value="Lahti" required>
+        </section>
+        <br>
+        <section class="country">
+            <label for="country">Select a country:</label>
+            <select name="country" id="country" required>
+                <option value="Finland">Finland</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Spain">Spain</option>
+                <option value="Poland">Poland</option>
+                <option value="Estonia">Estonia</option>
+            </select>
+        </section>
+        <br>
+        <section class="description">
+            <label for="description">Description:</label>
+            <textarea name="description" id="description" rows="8" cols="70" required >Write here a description of yourself...</textarea>
+        </section>
+        <br>
+        <section class="pet">
+            <span>My pets:</span>
+            <input name="pet" id="cat" type="checkbox">
+            <label for="cat">Cat</label>
+            <input name="pet" id="dog" type="checkbox">
+            <label for="dog">Dog</label>
+            <input name="pet" id="rabbit" type="checkbox">
+            <label for="rabbit">Rabbit</label>
+            <input name="pet" id="sheep" type="checkbox">
+            <label for="sheep">Sheep</label>
+        </section>
+        <br>
+        <section class="submit">
+            <input type="submit" value="Submit">
+        </section>
+
+    </form>
+    
+</body>
+</html>

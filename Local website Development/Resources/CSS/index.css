@@ -1,0 +1,27 @@
+body{
+    font-family: Helvetica;
+}
+h2{
+    font-size:32px;
+    font-weight: bold;
+    color:white;
+}
+strong{
+    color:blue;
+}
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align:center;
+    background-image: url("Resources/Images/pattern.jepg");
+}
+.p1 h2{
+    background-color:mediumspringgreen ;
+}
+.p2 h2{
+    background-color: lightcoral;
+}
+.p3 h2{
+    background-color:skyblue ;
+}
